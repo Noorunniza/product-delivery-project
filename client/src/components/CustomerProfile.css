@@ -1,0 +1,81 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.profile-icon {
+  font-size: 64px;
+  color: #bdcbd0;
+  margin-bottom: 12px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.profile-email {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+/* ===== BUTTON GROUP ===== */
+.profile-options {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.profile-options button,
+.logout-section button {
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ✨ Primary action buttons */
+.profile-options button {
+  background: linear-gradient(135deg, #6aa2c6, #acd54b);
+  color: white;
+  
+}
+
+.profile-options button:hover {
+  background: linear-gradient(135deg, #29a4c0, #56c024);
+  transform: scale(1.02);
+}
+
+/* 🚪 Logout button */
+.logout-section button {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.logout-section button:hover {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  transform: scale(1.02);
+}

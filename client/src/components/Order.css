@@ -1,0 +1,156 @@
+/* src/Order.css */
+
+.order-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 24px 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9fc;
+  min-height: 100vh;
+}
+
+.order-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2d2d2d;
+}
+
+.search-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  background-color: white;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.search-box:focus {
+  border-color: #007bff;
+}
+
+.order-message {
+  text-align: center;
+  margin-top: 32px;
+  color: #777;
+  font-size: 15px;
+}
+
+.order-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.order-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.order-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-id {
+  margin: 0;
+  color: #333;
+}
+
+.order-date {
+  font-size: 13px;
+  color: #666;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  min-width: 100px;
+  text-align: center;
+}
+
+.delivered {
+  background-color: #4caf50;
+}
+
+.processing {
+  background-color: #ff9800;
+}
+
+.cancelled {
+  background-color: #f44336;
+}
+
+.pending {
+  background-color: #607d8b;
+}
+
+.order-details {
+  margin-top: 12px;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.product-img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 12px;
+}
+
+.product-info {
+  font-size: 14px;
+}
+
+.product-info p {
+  margin: 2px 0;
+  color: #555;
+}
+
+.total-amount {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #222;
+}
+
+.bottom-nav {
+  position: sticky;
+  bottom: 0;
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  text-align: center;
+  cursor: pointer;
+  color: #444;
+}
+
+.nav-item p {
+  margin: 4px 0 0;
+  font-size: 14px;
+}

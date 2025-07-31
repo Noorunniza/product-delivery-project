@@ -1,0 +1,169 @@
+.select-address-container {
+  padding: 24px 16px 140px;
+  max-width: 720px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.heading {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.no-address-msg {
+  font-size: 16px;
+  text-align: center;
+  color: #999;
+  margin-top: 40px;
+}
+
+.address-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s;
+}
+
+.address-item:hover {
+  background-color: #f0faff;
+  border-color: #0ea5e9;
+}
+
+.address-details {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+  flex: 1;
+  margin-right: 16px;
+}
+
+.address-item input[type='radio'] {
+  accent-color: #0ea5e9;
+  transform: scale(1.3);
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.default-label {
+  color: green;
+  font-weight: bold;
+  margin-left: 8px;
+  font-size: 13px;
+}
+
+.show-more-btn {
+  display: block;
+  margin: 20px auto 10px;
+  background: #fff;
+  color: #0ea5e9;
+  border: 2px dashed #0ea5e9;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.show-more-btn:hover {
+  background-color: #e0f7ff;
+}
+
+.address-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.manage-address-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.manage-msg {
+  font-size: 14px;
+  color: #555;
+}
+
+.manage-address-btn,
+.pay-button {
+  background-color: #10b981;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+  transition: background 0.3s ease;
+  display: block;              /* Make it block so margin auto works */
+  margin: 30px auto 0 auto;    /* Center horizontally */
+  text-align: center;
+  width: fit-content;          /* Just enough width for content */
+  min-width: 220px;
+}
+
+
+.manage-address-btn {
+  background-color: #0ea5e9;
+  color: #fff;
+  border: none;
+}
+
+.manage-address-btn:hover {
+  background-color: #0284c7;
+}
+
+.pay-button {
+  background-color: #10b981;
+  color: #fff;
+  border: none;
+}
+
+.pay-button:hover {
+  background-color: #059669;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+  z-index: 100;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #0ea5e9;
+}
+
+.nav-item svg {
+  margin-bottom: 4px;
+}
